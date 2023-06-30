@@ -15,3 +15,9 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/carbon_A001D.mk
+
+COMMON_LUNCH_CHOICES := \
+    carbon_A001D-user \
+    carbon_A001D-userdebug \
+    carbon_A001D-eng
+
