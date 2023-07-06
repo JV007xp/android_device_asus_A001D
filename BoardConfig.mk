@@ -56,7 +56,6 @@ TARGET_KERNEL_CONFIG := A001D_defconfig
 TARGET_KERNEL_VERSION := 3.18
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image.gz-dtb
 TARGET_FORCE_PREBUILT_KERNEL := true
-TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-r450784d
 
 # ANT
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
